@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.tit {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  font-weight: 1000px;
+}
+
+
+span {
+  color: rgb(255, 0, 106);
+}
+
+.box {
+  width: 100%;
+  height: 100px;
+}
+
+.box,
+ul,
+li {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: rgb(255, 0, 106);
+  font-size: 25px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+ul {
+  margin-left: 900px;
+}
+
+li i{
+  color: rgb(255, 0, 106);
+}
+.box1 {
+  display: flex;
+  width: 100%;
+  height: 650px;
+  border-radius: 10px;
+  background-color: #f89cab;
+}
+.cim {
+  width: 1700px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.con1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome {
+  color: black;
+  font-size: 100px;
+  margin-top: 100px;
+}
+.welcome1 {
+  font-size: 100px;
+  margin-right: 325px;
+}
+.con1 p {
+  color: black;
+  margin-left: 270px;
+  line-height: 30px;
+  font-size: 30px;
+}
+
+.con1 button {
+  box-shadow: 10px;
+  padding: 10px;
+  width: 300px;
+  font-size: 30px;
+  border-radius: 8px;
+  background-color: black;
+  color: rgb(255, 0, 106);
+  margin-top: 20px;
+  margin-right: 470px;
+}
+
+.tit2 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  margin-top: 60px;
+}
+
+.box2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.productmain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.productdetail {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.product img {
+  width: 25%;
+  height: 200px;
+}
+
+.productmain1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.product1 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.productdetail1 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+button.title3 {
+  box-shadow: 100px;
+  margin-left: 800px;
+  margin-top: 50px;
+  padding: 10px;
+  width: 300px;
+  font-size: 30px;
+  border-radius: 8px;
+  background-color: black;
+  color: rgb(255, 0, 106);
+}
+
+.box2 {
+  background-color: #7fd7eb;
+  color: black;
+  height: 600px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contentimg2 {
+  margin-top: 205px;
+  margin-left: 50px;
+}
+.content2 {
+  font-size: 40px;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.cont2{
+  font-size: 30px;
+}
+.content2 span {
+  color: rgb(27, 153, 211);
+}
+
+.buynow {
+  padding: 15px;
+  font-size: 30px;
+  width: 200px;
+  margin-top: 10px;
+  background-color: black ;
+  color: rgb(27, 153, 211);
+}
+
+.title4 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+  line-break: auto;
+  padding: 9px;
+  color: rgb(0, 0, 0);
+}
+
+.title4 span {
+  margin-left: 40px;
+  color: black;
+}
+.whyus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.delivery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 300px;
+}
+
+.delivery i {
+  font-size: 100px;
+  color: rgb(255, 127, 187);
+  padding: 30px;
+}
+
+.delivery p {
+  padding: 20px;
+  font-size: 25px;
+}
+.box3 {
+  width: 100%;
+  height: 550px;
+  border-radius: 10px;
+  background-color: #6929a5;
+  display: flex;
+  flex-direction: row;
+}
+.content3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  margin-top: 50px;
+}
+.content3 .love {
+  margin-right: 140px;
+}
+
+.byunow2 {
+  padding: 15px;
+  font-size: 30px;
+  width: 200px;
+  margin-top: 10px;
+  margin-right: 570px;
+  background-color: black;
+  color: rgb(255, 0, 106);
+}
+
+.contentimg3 img {
+  width: 425px;
+  margin-right: 100px;
+  margin-top: 20px;
+  
+}
+
+.content3,.one,.two{
+  margin-right: 100px;
+}
+.cont3{
+  margin-left: 255px;
+  font-size: 30px;
+}
+
+.us{
+  margin-left: 250px;
+  margin-top: 50px;
+}
+.map iframe{
+  width: 100%;
+}
+.map{
+  width: 40%;
+  height: 450px;
+  background-color: black;
+  margin-left: 250px;
+  margin-top: 30px;
+}
+.contus{
+  display: flex;
+  flex-direction: row;
+}
+
+.input{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.input input{
+  width: 500px;
+  height: 50px;
+  padding: 30px;
+
+}
+.send{
+  padding: 10px;
+  width: 150px;
+  background-color: black;
+  color:rgb(255, 0, 106) ;
+}
+
+textarea{
+  width: 500px;
+  height: 100px;
+  padding: 30px;
+
+}
+
+.box4{
+  background-color: #2d2d2d;
+  color: azure;
+  width: 100%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  border-radius: 10px;
+
+}
+
+.icon{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.content0{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  margin-bottom: 100px;
+}
+
+.CON1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  width: 13%;
+  gap: 20PX;
+  margin-top: 100px;
+}
+
+.about1{
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(255, 0, 106);
+}
+
+.CON2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  gap: 20PX;
+  margin-top: 30px
+}
+
+.email{
+  padding: 15px;
+}
+
+.sub{
+  padding: 20px;
+  margin-right: 105px;
+  background-color: #f89cab;
+  color: #2d2d2d;
+}
+.CON3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  width: 200px;
+  gap: 20PX;
+  margin-top: 35px;
+  
+}
+.CON4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  width: 200px;
+  gap: 20PX;
+  
+}
+
+hr{
+  width: 50%;
+  margin-bottom: 100px;
+}
